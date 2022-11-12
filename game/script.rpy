@@ -49,7 +49,7 @@ label start:
         "Go to bed.":
             "{i}You close your eyes and begin to fall asleep.{/i}"
             scene black with dissolve
-            "{i}You slept for a few hours.{/i}"
+            "{i}You sleep for a few hours.{/i}"
             jump one
 
         "Get up and explore outside the hut.":
