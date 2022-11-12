@@ -100,7 +100,7 @@ label start:
     label five:
 
         "{i}You approach her on a whim, hoping she could fill you in what is going on.{/i}"
-        mc "Hello! Can I -"
+        mc "Hello! Can I-"
         yw "Eeek! Who are you and what do you want?!"
         "{i}She flinches and backs away from you.{/i}"
         mc "Sorry for scaring you, but I have no idea how I got here and I'd appreciate it if you can help me out here."
@@ -251,7 +251,7 @@ label start:
         mc "Hey, have you seen a woman with a basket full of potions and a white shawl?"
         tm "No requests here. You come here to have a drink or you find yourself out of this place."
         mc "Please, I have to meet her somehow!"
-        "{i}The tavern master slams his hand on the counter -{i}"
+        "{i}The tavern master slams his hand on the counter-{i}"
         tm "Now I don't know what you're thinking here, I don't do naught for free, now do you want me to repeat that?!"
         "{i}The patrons in the tavern all set their sights on you.{i}"
         "{i}You choose to...{/i}"
@@ -290,9 +290,9 @@ label start:
         "{b}{color=#bb4113}Grocer{/color}{/b}" "Apples are ripe and ready, red as far as could be!"
         "{i}A scenery of a busy market, \"This city is undeniably prosperous\", you think to yourself.{i}"
         mc "Sir, do you know of a woman with a basket full of potions and a white shawl?"
-        "{b}{color=#3286db}Fishmonger{/color}{/b}" "Gah! I'm sick of you people who come, come all o'er my stall here; blocking my business - thinking I owe you any favour -"
+        "{b}{color=#3286db}Fishmonger{/color}{/b}" "Gah! I'm sick of you people who come, come all o'er my stall here; blocking my business - thinking I owe you any favour!"
         "Move along if you're not going to buy anything!"
-        "{i}Seeing the enraged fishmonger, you choose to -{i}"
+        "{i}Seeing the enraged fishmonger, you choose to...{i}"
 
     menu:
 
@@ -436,10 +436,10 @@ label start:
         scene kykhouse with dissolve
         kyk "This is my home. Let's start."
         kyk "So, I have not seen the wizard for a few months now."
-        kyk "But, he gave me a {color=#66ff00}map{/color} with an X marked on it. I am unable to decipher what it means though -"
+        kyk "But, he gave me a {color=#66ff00}map{/color} with an X marked on it. I am unable to decipher what it means though-"
         mc "- That must be where he is!"
         mc "Thank you, I really appreciate your help!"
-        kyk "Wait, let me -"
+        kyk "Wait, let me-"
         "You found a {color=#66ff00}map{/color}!"
         $ map = 1
         "{i}You leave quickly, satisfied with the information you received.{/i}"
