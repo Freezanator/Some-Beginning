@@ -80,7 +80,7 @@ label start:
 
         scene forestone with dissolve
         "{i}Walking aimlessly on the road, and you soon spot a figure from afar.{/i}"
-        "{i}A young woman, carrying a basket full of goods.{/i}"
+        "{i}A young woman, carrying a basket full of what seems like potion bottles.{/i}"
 
     label four:
 
@@ -100,7 +100,7 @@ label start:
     label five:
 
         "{i}You approach her on a whim, hoping she could fill you in what is going on.{/i}"
-        mc "Hello! Can I-"
+        mc "Hello! Can I -"
         yw "Eeek! Who are you and what do you want?!"
         "{i}She flinches and backs away from you.{/i}"
         mc "Sorry for scaring you, but I have no idea how I got here and I'd appreciate it if you can help me out here."
@@ -251,7 +251,7 @@ label start:
         mc "Hey, have you seen a woman with a basket full of potions and a white shawl?"
         tm "No requests here. You come here to have a drink or you find yourself out of this place."
         mc "Please, I have to meet her somehow!"
-        "{i}The tavern master slams his hand on the counter-{i}"
+        "{i}The tavern master slams his hand on the counter -{i}"
         tm "Now I don't know what you're thinking here, I don't do naught for free, now do you want me to repeat that?!"
         "{i}The patrons in the tavern all set their sights on you.{i}"
         "{i}You choose to...{/i}"
@@ -268,7 +268,7 @@ label start:
             "{i}He smirks before moving towards you.{i}"
             tm "Words do get around, now I do not know what matters you have with her but I do hear her family is often found in the town's market not far from here."
             mc "What do they look like?"
-            tm "A {color=ffff00}young boy and an old man{/color} clad in grey robes; that's all I'm telling you."
+            tm "A {color=ffff00}young boy{/color} clad in grey robes; that's all I'm telling you."
             mc "I appreciate it."
             "{i}As another patron called for him, he leans over to continue his business as per usual.{i}"
             "{i}The master smiles at you before waving you off cheerfully.{i}"
@@ -290,9 +290,9 @@ label start:
         "{b}{color=#bb4113}Grocer{/color}{/b}" "Apples are ripe and ready, red as far as could be!"
         "{i}A scenery of a busy market, \"This city is undeniably prosperous\", you think to yourself.{i}"
         mc "Sir, do you know of a woman with a basket full of potions and a white shawl?"
-        "{b}{color=#3286db}Fishmonger{/color}{/b}" "Gah! I'm sick of you people who come, come all o'er my stall here; blocking my business - thinking I owe you any favour-"
+        "{b}{color=#3286db}Fishmonger{/color}{/b}" "Gah! I'm sick of you people who come, come all o'er my stall here; blocking my business - thinking I owe you any favour -"
         "Move along if you're not going to buy anything!"
-        "{i}Seeing the enraged fishmonger, you choose to-{i}"
+        "{i}Seeing the enraged fishmonger, you choose to -{i}"
 
     menu:
 
@@ -332,22 +332,22 @@ label start:
 
             "Ask an old woman." if twelveA == 0:
                 $ twelveA = 1
-                mc "Good day madam. I'm looking for a woman with a basket full of potions and a white shawl."
+                mc "Good day madam. I'm looking for a woman with a basket full of potions."
                 mc "Do you happen to know her?"
                 "{b}{color=#a8003b}Old Woman{/color}{/b}" "I'm sorry dear, I do not know who that is."
                 jump twelvemenuA
 
-            "{color=#ffff00}Ask an old man and a young boy{/color}":
-                mc "Good day, I'm looking for a woman with a basket full of potions and a white shawl."
+            "{color=#ffff00}Ask a young boy{/color}":
+                mc "Hello there, I'm looking for a woman with a basket full of potions."
                 mc "Do you happen to know her?"
-                "{b}{color=#89cff0}Young Boy{/color}{/b}" "Hmm... She might be my aunt. Did she have a white rose lace on her shawl?"
-                mc "A white rose lace... Oh, yes, she did! Could you bring me to her?"
+                "{b}{color=#89cff0}Young Boy{/color}{/b}" "Hmm... She might be my aunt. Was she wearing a white lace shawl?"
+                mc "A white lace shawl... Oh, yes, she was! Could you bring me to her?"
                 "{b}{color=#89cff0}Young Boy{/color}{/b}" "Sure!"
                 jump thirteen
 
             "Ask a young man." if twelveC == 0:
                 $ twelveC = 1
-                mc "Good day sir. I'm looking for a woman with a basket full of potions and a white shawl."
+                mc "Good day sir. I'm looking for a woman with a basket full of potions."
                 mc "Do you happen to know her?"
                 "{b}{color=#4856c7}Young Man{/color}{/b}" "..."
                 mc "I guess not."
@@ -358,22 +358,22 @@ label start:
 
             "Ask an old woman." if twelveA == 0:
                 $ twelveA = 1
-                mc "Good day madam. I'm looking for a woman with a basket full of potions and a white shawl."
+                mc "Good day madam. I'm looking for a woman with a basket full of potions."
                 mc "Do you happen to know her?"
                 "{b}{color=#a8003b}Old Woman{/color}{/b}" "I'm sorry dear, I do not know who that is."
                 jump twelvemenuB
 
-            "Ask an old man and a young boy.":
-                mc "Good day, I'm looking for a woman with a basket full of potions and a white shawl."
+            "Ask a young boy.":
+                mc "Hello there, I'm looking for a woman with a basket full of potions."
                 mc "Do you happen to know her?"
-                "{b}{color=#89cff0}Young Boy{/color}{/b}" "Hmm... She might be my aunt. Did she have a white rose lace on her shawl?"
-                mc "A white rose lace... Oh, yes, she did! Could you bring me to her?"
+                "{b}{color=#89cff0}Young Boy{/color}{/b}" "Hmm... She might be my aunt. Was she wearing a white lace shawl?"
+                mc "A white lace shawl... Oh, yes, she was! Could you bring me to her?"
                 "{b}{color=#89cff0}Young Boy{/color}{/b}" "Sure!"
                 jump thirteen
 
             "Ask a young man." if twelveC == 0:
                 $ twelveC = 1
-                mc "Good day sir. I'm looking for a woman with a basket full of potions and a white shawl."
+                mc "Good day sir. I'm looking for a woman with a basket full of potions."
                 mc "Do you happen to know her?"
                 "{b}{color=#4856c7}Young Man{/color}{/b}" "..."
                 mc "I guess not."
@@ -436,13 +436,13 @@ label start:
         scene kykhouse with dissolve
         kyk "This is my home. Let's start."
         kyk "So, I have not seen the wizard for a few months now."
-        kyk "But, he gave me a {color=#66ff00}map{/color} with an X marked on it. I am unable to decipher what he wants me to do with it so I will leave it in your hands, I think he will be there-"
-        mc "-That must be where he is!"
+        kyk "But, he gave me a {color=#66ff00}map{/color} with an X marked on it. I am unable to decipher what it means though -"
+        mc "- That must be where he is!"
         mc "Thank you, I really appreciate your help!"
-        kyk "Wait, let me-"
+        kyk "Wait, let me -"
         "You found a {color=#66ff00}map{/color}!"
         $ map = 1
-        "{i}You left quickly, satisfied with whatever information you received.{/i}"
+        "{i}You leave quickly, satisfied with the information you received.{/i}"
         jump seventeen
 
     label sixteen:
