@@ -436,12 +436,13 @@ label start:
         scene kykhouse with dissolve
         kyk "This is my home. Let's start."
         kyk "So, I have not seen the wizard for a few months now."
-        kyk "But, he gave me a {color=#66ff00}map{/color} with an X marked on it."
-        mc "That must be where he is!"
+        kyk "But, he gave me a {color=#66ff00}map{/color} with an X marked on it. I am unable to decipher what he wants me to do with it so I will leave it in your hands, I think he will be there-"
+        mc "-That must be where he is!"
         mc "Thank you, I really appreciate your help!"
+        kyk "Wait, let me-"
         "You found a {color=#66ff00}map{/color}!"
         $ map = 1
-        "{i}You leave quickly, satisfied with the information you received.{/i}"
+        "{i}You left quickly, satisfied with whatever information you received.{/i}"
         jump seventeen
 
     label sixteen:
