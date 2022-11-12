@@ -1,3 +1,5 @@
+<!-- https://github.com/othneildrew/Best-README-Template -->
+
 <br>
   <div align="center">
     <img src="game/images/logo.png" width="812">
@@ -31,8 +33,6 @@ Some Beginning is a medieval-themed visual novel game with an enticing story and
 ### License
 
 Distributed under the MIT License. Please see the [license file](https://github.com/Freezanator/SomeBeginning/blob/main/LICENSE.txt) for more information.
-
-<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
