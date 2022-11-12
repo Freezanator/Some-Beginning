@@ -245,7 +245,7 @@ label start:
     label tavernscene:
 
         scene towntavern with dissolve
-        play music "audio/tavernAmbient.mp3" fadeout 1.0
+        play music "audio/tavernloop.mp3" fadeout 1.0
         "{i}You invite yourself into the local tavern. It reeks of drunkards.{i}"
         "{i}Pulling up your shirt, you hurry to the counter to meet the master here.{i}"
         mc "Hey, have you seen a woman with a basket full of potions and a white shawl?"
