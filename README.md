@@ -8,9 +8,11 @@
 
 # Some Beginning
 
+<!-- BADGES
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
+-->
 
 Some Beginning is a medieval-themed visual novel game with an enticing story and charming characters!
 <br></br>
@@ -28,7 +30,7 @@ Some Beginning is a medieval-themed visual novel game with an enticing story and
 <!-- LICENSE -->
 ### License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. Please see the [license file](https://github.com/Freezanator/SomeBeginning/blob/main/LICENSE.txt) for more information.
 
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
