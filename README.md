@@ -41,7 +41,7 @@ Icons: https://simpleicons.org/
 |:--------------------------|:--------------|
 | Writing                   | Gan Zhao Yang </br> Thomas Chua |
 | Coding & Troubleshooting  | [Warren Carvalho](https://github.com/Freezanator/) </br> [Sit Wei Min](https://github.com/2gblue/) |
-| Character Art             | Joel Yeoh |
+| Character Art             | [Joel Yeoh](https://github.com/22ndteam/) |
 | Music                     | [Warren Carvalho](https://github.com/Freezanator/) </br> Isaac Choong |
 | Publicity                 | Saw Thiam Yap </br> Vignesh Rajan |
 
