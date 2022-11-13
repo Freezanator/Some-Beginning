@@ -17,6 +17,7 @@ label start:
     $ knowledge = 0
 
     # Choices
+    $ oneB = 0
     $ tenB = 0
     $ twelveA = 0
     $ twelveC = 0
@@ -29,15 +30,15 @@ label start:
 
     label chapter1:
 
-        play music "<from 0.0 to 10.0>audio/cello.mp3" fadeout 1.0
+        play music "<from 0.0 to 10.0>audio/cello.mp3" fadeout 1.0 volume 2.5
 
         scene chapter1 with Dissolve(2.5)
         pause 5.0
         scene black with Dissolve(2.5)
 
-    label one:
-
         play music "audio/heavyheart.mp3" fadeout 1.0
+
+    label one:
 
         scene wizardhut with dissolve
         "{i}You gradually awake from your slumber.{/i}"
@@ -52,10 +53,30 @@ label start:
             "{i}You close your eyes and begin to fall asleep.{/i}"
             scene black with dissolve
             "{i}You sleep for a few hours.{/i}"
-            jump one
+
+            if oneB > 4:
+                jump bedroom
+
+            else:
+                $ oneB += 1
+                jump one
 
         "Get up and explore outside the hut.":
             jump three
+
+    label bedroom:
+
+        play music "audio/alarm.mp3" fadein 2.0
+        scene black with Dissolve(2.0)
+
+        scene bedroom with dissolve
+        pause
+        stop music
+        play sound "audio/alarmoff.mp3"
+        play music "audio/chirping.mp3" volume 5.0
+        mc "Woah, I had the wildest dream!"
+
+        return
 
     label two:
 
@@ -303,7 +324,7 @@ label start:
             "{i}You walk away.{/i}"
             jump twelve
 
-        "Beg him":
+        "Beg him.":
             mc "Please, I'm sure you know something!"
             "{i}The fishmonger shouts at you again. Passersby look at you oddly.{/i}"
             "{i}You walk away.{/i}"
