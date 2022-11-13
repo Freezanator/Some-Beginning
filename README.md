@@ -35,7 +35,7 @@
 ### Credits
 
 | Project Lead              | Gan Zhao Yang |
-|---------------------------|---------------|
+|:--------------------------|:--------------|
 | Writing                   | Gan Zhao Yang </br> Thomas Chua |
 | Coding & Troubleshooting  | [Warren Carvalho](https://github.com/Freezanator/) </br> [Sit Wei Min](https://github.com/2gblue/) |
 | Character Art             | Joel Yeoh |
