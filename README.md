@@ -1,29 +1,30 @@
-<!-- https://github.com/othneildrew/Best-README-Template -->
+<!-- 
+Template: https://github.com/othneildrew/Best-README-Template 
+Shields: https://shields.io/
+Icons: https://simpleicons.org/
+-->
 
-<br>
-  <div align="center">
-    <img src="game/images/logo.png" width="812">
-  </div>
+<div align="center">
+  <h3>
+    ⚠️ This game is still in development ⚠️
+  </h3>
+  </br>
+  <img src="game/images/logo.png" width="812">
+</div>
+
 </br>
-
 
 
 # Some Beginning
 
-<!-- BADGES
-[![Contributors][contributors-shield]][contributors-url]
-[![Stargazers][stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
--->
-
 **Some Beginning** is a medieval-themed visual novel game developed by a group of friends. In this game, you will journey through an enticing story and interact with charming characters!
 
-<br></br>
+</br></br>
 
 
 
-<!-- BUILT WITH -->
-### Built With
+<!-- MADE WITH -->
+## Made With
 
 [![Renpy][Renpy]][Renpy-url]
 
@@ -32,7 +33,7 @@
 
 
 <!-- CREDITS -->
-### Credits
+## Credits
 
 | Project Lead              | Gan Zhao Yang |
 |:--------------------------|:--------------|
@@ -47,7 +48,7 @@
 
 
 <!-- LICENSE -->
-### License
+## License
 
 Distributed under the MIT License. Please see the [license file](https://github.com/Freezanator/SomeBeginning/blob/main/LICENSE.txt) for more information.
 
