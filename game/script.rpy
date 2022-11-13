@@ -27,16 +27,21 @@ label start:
     $ map = 0
     $ ring = 0
 
-    play music "audio/heavyheart.mp3" fadeout 1.0
+    label chapter1:
 
-    scene chapter1 with Dissolve(2.5)
-    scene black with Dissolve(2.5)
+        play music "<from 0.0 to 10.0>audio/cello.mp3" fadeout 1.0
+
+        scene chapter1 with Dissolve(2.5)
+        pause 5.0
+        scene black with Dissolve(2.5)
 
     label one:
 
-    scene wizardhut with dissolve
-    "{i}You gradually awake from your slumber.{/i}"
-    mc "Ugh... W-Where am I?"
+        play music "audio/heavyheart.mp3" fadeout 1.0
+
+        scene wizardhut with dissolve
+        "{i}You gradually awake from your slumber.{/i}"
+        mc "Ugh... W-Where am I?"
 
     menu:
 
@@ -440,7 +445,7 @@ label start:
         "You found a {color=#00ff00}map{/color}!"
         $ map = 1
         "{i}You leave quickly, satisfied with the information you received.{/i}"
-        jump seventeen
+        jump chapter2
 
     label sixteen:
 
@@ -463,11 +468,14 @@ label start:
         "You found a {color=#00ff00}ring{/color}!"
         $ ring = 1
         "{i}You leave quickly, satisfied with the information you received.{/i}"
-        jump seventeen
+        jump chapter2
 
-    label seventeen:
+    label chapter2:
+
+        play music "<from 0.0 to 10.0>audio/cello.mp3" fadeout 1.0
 
         scene chapter2 with Dissolve(2.5)
+        pause 5.0
         scene black with Dissolve(2.5)
 
 return
