@@ -16,7 +16,8 @@
 [![MIT License][license-shield]][license-url]
 -->
 
-Some Beginning is a medieval-themed visual novel game with an enticing story and charming characters!
+**Some Beginning** is a medieval-themed visual novel game developed by a group of friends. In this game, you will journey through an enticing story and interact with charming characters!
+
 <br></br>
 
 
@@ -25,7 +26,23 @@ Some Beginning is a medieval-themed visual novel game with an enticing story and
 ### Built With
 
 [![Renpy][Renpy]][Renpy-url]
-<br></br>
+
+</br>
+
+
+
+<!-- CREDITS -->
+### Credits
+
+| Project Lead              | Gan Zhao Yang |
+|---------------------------|---------------|
+| Writing                   | Gan Zhao Yang </br> Thomas Chua |
+| Coding & Troubleshooting  | [Warren Carvalho](https://github.com/Freezanator/) </br> [Sit Wei Min](https://github.com/2gblue/) |
+| Character Art             | Joel Yeoh |
+| Music                     | [Warren Carvalho](https://github.com/Freezanator/) </br> Isaac Choong |
+| Publicity                 | Saw Thiam Yap </br> Vignesh Rajan |
+
+</br>
 
 
 
