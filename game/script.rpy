@@ -5,7 +5,7 @@ define yw = Character("{b}Young Woman{/b}", color="#9d73ff")
 define tg = Character("{b}Town Guard{/b}", color="#b37932")
 define tm = Character("{b}Tavern Master{/b}", color="#39864c")
 define fm = Character("{b}Fishmonger{/b}", color="#3286db")
-define yb = Character("{b}Young Boy{/b}", color="#89cff0)
+define yb = Character("{b}Young Boy{/b}", color="#89cff0")
 
 define config.menu_include_disabled = True
 define fadehold = Fade(0.5, 1.0, 0.5)
