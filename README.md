@@ -26,9 +26,9 @@ Icons: https://simpleicons.org/
 <!-- MADE WITH -->
 ## Made With
 
-- [![Renpy][Renpy]][Renpy-url]
-- [![Illustrator][Illustrator]][Illustrator-url]
-- [![Photoshop][Photoshop]][Photoshop-url]
+- [![renpy][renpy]][renpy-url]
+- [![illustrator][illustrator]][illustrator-url]
+- [![photoshop][photoshop]][photoshop-url]
 
 </br>
 
@@ -64,9 +64,9 @@ Distributed under the MIT License. Please see the [license file](https://github.
 [stars-url]: https://github.com/Freezanator/SomeBeginning/stargazers
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/Freezanator/SomeBeginning/blob/main/LICENSE.txt
-[Renpy]: https://img.shields.io/badge/Ren'py-FF7F7F?style=for-the-badge&logo=renpy&logoColor=white
-[Renpy-url]: https://www.renpy.org/
-[Illustrator]: https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white
-[Illustrator-url]: https://www.adobe.com/products/illustrator.html
-[Photoshop]: https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white
-[Photoshop-url]: https://www.adobe.com/products/photoshop.html
+[renpy]: https://img.shields.io/badge/Ren'py-FF7F7F?style=for-the-badge&logo=renpy&logoColor=white
+[renpy-url]: https://www.renpy.org/
+[illustrator]: https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white
+[illustrator-url]: https://www.adobe.com/products/illustrator.html
+[photoshop]: https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white
+[photoshop-url]: https://www.adobe.com/products/photoshop.html
