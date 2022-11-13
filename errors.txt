@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 330: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Ask an old man and a young boy"
-                                    ^
+File "game/script.rpy", line 11: expected statement.
+    imaage background_video = Movie(size = (1080,1920), channel = "movie", play = "video/background")
+                            ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Jan 14 20:13:06 2022
+Sat Nov 12 22:47:49 2022

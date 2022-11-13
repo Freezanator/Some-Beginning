@@ -4,6 +4,8 @@ define kyk = Character("{b}K Yeo Ko{/b}", color="#9d73ff")
 define yw = Character("{b}Young Woman{/b}", color="#9d73ff")
 define tg = Character("{b}Town Guard{/b}", color="#b37932")
 define tm = Character("{b}Tavern Master{/b}", color="#39864c")
+define fm = Character("{b}Fishmonger{/b}", color="#3286db")
+define yb = Character("{b}Young Boy{/b}", color="#89cff0)
 
 define config.menu_include_disabled = True
 define fadehold = Fade(0.5, 1.0, 0.5)
@@ -27,13 +29,8 @@ label start:
 
     play music "audio/heavyheart.mp3" fadeout 1.0
 
-    scene black with dissolve
-
-    show text "CHAPTER 1\n\nSOME BEGINNING" with dissolve
-    show text "CHAPTER 1\n\nSOME BEGINNING" with Pause(5.0)
-    show text "CHAPTER 1\n\nSOME BEGINNING" with dissolve
-
-    scene black with dissolve
+    scene chapter1 with Dissolve(2.5)
+    scene black with Dissolve(2.5)
 
     label one:
 
@@ -74,8 +71,8 @@ label start:
 
     label three:
 
-        "{i}You proceed to leave the wooden hut, picking up a few {color=#66ff00}silver coins{/color} you spot on the table.{/i}"
-        "You found some {color=#66ff00}silver coins{/color}!"
+        "{i}You proceed to leave the wooden hut, picking up a few {color=#00ff00}silver coins{/color} you spot on the table.{/i}"
+        "You found some {color=#00ff00}silver coins{/color}!"
         $ silverCoins = 1
 
         scene forestone with dissolve
@@ -205,7 +202,7 @@ label start:
     menu:
 
         "Bribe the guard.":
-            "{i}You reach into your pocket, hoping to find something valuable. You offer a few {color=#66ff00}silver coins{/color} you've picked up from the wooden hut earlier.{/i}"
+            "{i}You reach into your pocket, hoping to find something valuable. You offer a few {color=#00ff00}silver coins{/color} you've picked up from the wooden hut earlier.{/i}"
             "{i}The guard pushes your arm under before sneakily accepting the coins, hunched over - to avoid being seen by anyone.{/i}"
             "{i}He smiles gleefully and lets you past; you wonder how much those coins are really worth.{i}"
             $ trust -= 1
@@ -261,7 +258,7 @@ label start:
         "Buy a drink.":
             mc "What if I help myself to a drink?"
             tm "Name your price."
-            "{i}You reach into your pocket for a few {color=#66ff00}silver coins{/color} and place it on the counter.{i}"
+            "{i}You reach into your pocket for a few {color=#00ff00}silver coins{/color} and place it on the counter.{i}"
             $ silverCoins = 0
             mc "Is this enough?"
             tm "More than enough..."
@@ -286,12 +283,12 @@ label start:
 
         play music "audio/folkround.mp3" fadeout 1.0
 
-        "{b}{color=#3286db}Fishmonger{/color}{/b}" "Wild cod, freshly caught! Only 3 copper per head!"
+        fm "Wild cod, freshly caught! Only 3 copper per head!"
         "{b}{color=#bb4113}Grocer{/color}{/b}" "Apples are ripe and ready, red as far as could be!"
         "{i}A scenery of a busy market, \"This city is undeniably prosperous\", you think to yourself.{i}"
         mc "Sir, do you know of a woman with a basket full of potions and a white shawl?"
-        "{b}{color=#3286db}Fishmonger{/color}{/b}" "Gah! I'm sick of you people who come, come all o'er my stall here; blocking my business - thinking I owe you any favour!"
-        "Move along if you're not going to buy anything!"
+        fm "Gah! I'm sick of you people who come, come all o'er my stall here; blocking my business - thinking I owe you any favour!"
+        fm "Move along if you're not going to buy anything!"
         "{i}Seeing the enraged fishmonger, you choose to...{i}"
 
     menu:
@@ -303,7 +300,7 @@ label start:
 
         "Beg him":
             mc "Please, I'm sure you know something!"
-            "{i}The fishmonger shouts at you again, passersby look at you oddly.{/i}"
+            "{i}The fishmonger shouts at you again. Passersby look at you oddly.{/i}"
             "{i}You walk away.{/i}"
             jump twelve
 
@@ -312,7 +309,7 @@ label start:
 
             play music "audio/crisis.mp3" fadeout 1.0
 
-            "{b}{color=#3286db}Fishmonger{/color}{/b}" "Agh! So that's how you want to do it!"
+            fm "Agh! So that's how you want to do it!"
 
             scene townmarket with vpunch
             "{i}The fishmonger rushes at you and punches you back, knocking you to the ground.{/i}"
@@ -340,9 +337,9 @@ label start:
             "{color=#ffff00}Ask a young boy{/color}":
                 mc "Hello there, I'm looking for a woman with a basket full of potions."
                 mc "Do you happen to know her?"
-                "{b}{color=#89cff0}Young Boy{/color}{/b}" "Hmm... She might be my aunt. Was she wearing a white lace shawl?"
+                yb "Hmm... She might be my aunt. Was she wearing a white lace shawl?"
                 mc "A white lace shawl... Oh, yes, she was! Could you bring me to her?"
-                "{b}{color=#89cff0}Young Boy{/color}{/b}" "Sure!"
+                yb "Sure!"
                 jump thirteen
 
             "Ask a young man." if twelveC == 0:
@@ -366,9 +363,9 @@ label start:
             "Ask a young boy.":
                 mc "Hello there, I'm looking for a woman with a basket full of potions."
                 mc "Do you happen to know her?"
-                "{b}{color=#89cff0}Young Boy{/color}{/b}" "Hmm... She might be my aunt. Was she wearing a white lace shawl?"
+                yb "Hmm... She might be my aunt. Was she wearing a white lace shawl?"
                 mc "A white lace shawl... Oh, yes, she was! Could you bring me to her?"
-                "{b}{color=#89cff0}Young Boy{/color}{/b}" "Sure!"
+                yb "Sure!"
                 jump thirteen
 
             "Ask a young man." if twelveC == 0:
@@ -409,7 +406,7 @@ label start:
 
         "Ask her why she ran away.":
             mc "Why did you run away from me just now?"
-            "{i}The young woman panicked as she calls for the town guard and got you arrested.{/i}"
+            "{i}The young woman panicks as she calls for the town guard and gets you arrested.{/i}"
 
             scene black with dissolve
             "{i}The end.{/i}"
@@ -436,11 +433,11 @@ label start:
         scene kykhouse with dissolve
         kyk "This is my home. Let's start."
         kyk "So, I have not seen the wizard for a few months now."
-        kyk "But, he gave me a {color=#66ff00}map{/color} with an X marked on it. I am unable to decipher what it means though-"
+        kyk "But, he gave me a {color=#00ff00}map{/color} with an X marked on it. I am unable to decipher what it means though-"
         mc "- That must be where he is!"
         mc "Thank you, I really appreciate your help!"
         kyk "Wait, let me-"
-        "You found a {color=#66ff00}map{/color}!"
+        "You found a {color=#00ff00}map{/color}!"
         $ map = 1
         "{i}You leave quickly, satisfied with the information you received.{/i}"
         jump seventeen
@@ -457,24 +454,20 @@ label start:
         kyk "Oh, Pidg is our messenger bird and we send letters with it."
         kyk "My brother is a very respectable wizard. I don't think he's made any enemies too... What should I do?"
         mc "Don't worry, I will find him. Do you have any idea where he might be?"
-        kyk "Look, he gave me this {color=#66ff00}map{/color} with an X marked on it. He told me that he would be there."
+        kyk "Look, he gave me this {color=#00ff00}map{/color} with an X marked on it. He told me that he would be there."
         mc "Thank you so much! {i}*hug*{/i}"
-        "You found a {color=#66ff00}map{/color}!"
+        "You found a {color=#00ff00}map{/color}!"
         $ map = 1
-        kyk "Here, take this {color=#66ff00}ring{/color} as well. Bring it to him and he'll know that you've met me. I think it will surely help you out!"
+        kyk "Here, take this {color=#00ff00}ring{/color} as well. Bring it to him and he'll know that you've met me. I think it will surely help you out!"
         mc "{i}*touched*{/i} Now I will definitely need to find him, wouldn't I?"
-        "You found a {color=#66ff00}ring{/color}!"
+        "You found a {color=#00ff00}ring{/color}!"
         $ ring = 1
         "{i}You leave quickly, satisfied with the information you received.{/i}"
         jump seventeen
 
     label seventeen:
 
-        scene black with dissolve
+        scene chapter2 with Dissolve(2.5)
+        scene black with Dissolve(2.5)
 
-        show text "CHAPTER 2\n\nTHE TRIALS" with dissolve
-        show text "CHAPTER 2\n\nTHE TRIALS" with Pause(5.0)
-        show text "CHAPTER 2\n\nTHE TRIALS" with dissolve
-
-        scene black with dissolve
 return

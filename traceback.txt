@@ -1,22 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 307, in script
-    jump twelvemenuA
-ScriptError: could not find label 'twelvemenuA'.
+  File "game/script.rpy", line 31, in script
+    scene chapter1 with easeinleft(2.0)
+  File "game/script.rpy", line 31, in script
+    scene chapter1 with easeinleft(2.0)
+TypeError: 'MoveInterpolate' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 307, in script
-    jump twelvemenuA
-  File "renpy/ast.py", line 1752, in execute
-    rv = renpy.game.script.lookup(target)
-  File "renpy/script.py", line 918, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'twelvemenuA'.
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 617, in main
+    run(restart)
+  File "renpy/main.py", line 148, in run
+    renpy.execution.run_context(True)
+  File "renpy/execution.py", line 922, in run_context
+    context.run()
+  File "game/script.rpy", line 31, in script
+    scene chapter1 with easeinleft(2.0)
+  File "game/script.rpy", line 31, in script
+    scene chapter1 with easeinleft(2.0)
+  File "renpy/ast.py", line 1438, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "renpy/exports.py", line 1682, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "renpy/display/core.py", line 2718, in do_with
+    clear=clear)
+  File "renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3633, in interact_core
+    new_widget=layers_root)
+TypeError: 'MoveInterpolate' object is not callable
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
-Some Beginning 0.3.0
-Fri Jan 14 21:40:04 2022
+Some Beginning 
+Sun Nov 13 08:40:06 2022
