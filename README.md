@@ -37,11 +37,11 @@ Icons: https://simpleicons.org/
 <!-- CREDITS -->
 ## Credits
 
-| Project Lead              | Gan Zhao Yang |
+| Project Lead              | [Gan Zhao Yang](https://www.linkedin.com/in/gan-zhao-yang-50a56b212/) |
 |:--------------------------|:--------------|
-| Writing                   | Gan Zhao Yang </br> Thomas Chua |
+| Writing                   | [Gan Zhao Yang](https://www.linkedin.com/in/gan-zhao-yang-50a56b212/) </br> Thomas Chua |
 | Coding & Troubleshooting  | [Warren Carvalho](https://github.com/Freezanator/) </br> [Sit Wei Min](https://github.com/2gblue/) |
-| Character Art             | [Joel Yeoh](https://github.com/22ndteam/) |
+| Character Art             | [Joel Yeoh](https://www.behance.net/2ndteam/) |
 | Music & Audio             | [Warren Carvalho](https://github.com/Freezanator/) </br> Isaac Choong |
 | Publicity                 | Saw Thiam Yap </br> Vignesh Rajan |
 
