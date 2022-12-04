@@ -42,7 +42,7 @@ Icons: https://simpleicons.org/
 | Writing                   | [Gan Zhao Yang](https://www.linkedin.com/in/gan-zhao-yang-50a56b212/) </br> Thomas Chua |
 | Coding & Troubleshooting  | [Warren Carvalho](https://www.linkedin.com/in/warren-carvalho-b0a2a0253/) </br> [Sit Wei Min](https://github.com/2gblue/) |
 | Character Art             | [Joel Yeoh](https://www.behance.net/2ndteam/) |
-| Music & Audio             | [Warren Carvalho](https://github.com/Freezanator/) </br> Isaac Choong |
+| Music & Audio             | [Warren Carvalho](https://www.linkedin.com/in/warren-carvalho-b0a2a0253/) </br> Isaac Choong |
 | Publicity                 | Saw Thiam Yap </br> Vignesh Rajan |
 
 </br>
