@@ -52,7 +52,7 @@ Icons: https://simpleicons.org/
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. Please see the [license file](https://github.com/Freezanator/SomeBeginning/blob/main/LICENSE.txt) for more information.
+Distributed under the MIT License. Please see the [license file](https://github.com/Freezanator/SomeBeginning/blob/main/LICENSE) for more information.
 
 
 
