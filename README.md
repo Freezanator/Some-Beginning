@@ -17,7 +17,7 @@ Icons: https://simpleicons.org/
 
 # Some Beginning
 
-**Some Beginning** is a medieval-themed visual novel game developed by a group of friends. In this game, you will journey through an enticing story and interact with charming characters!
+**Some Beginning** is a medieval-themed visual novel developed by a group of friends. In this game, you will journey through an enticing story and interact with charming characters!
 
 </br></br>
 
