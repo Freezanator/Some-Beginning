@@ -6,7 +6,7 @@ Icons: https://simpleicons.org/
 
 <div align="center">
   <h3>
-    ⚠️ This game is still in development ⚠️
+    ⚠️ This visual novel is still in development ⚠️
   </h3>
   </br>
   <img src="game/images/logo.png" width="812">
